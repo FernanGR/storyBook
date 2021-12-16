@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'storebook';
+
+
+  onClick(event: Event) {
+    console.log("clicked");
+  }
+
+
+
 }
